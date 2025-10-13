@@ -67,11 +67,11 @@ export default {
   },
   methods: {
     next() {
-      this.$refs.sp.nextStep.()
+      this.$refs.sp.nextStep()
       // oppure: this.step = Math.min(this.step + 1, 2)
     },
     prev() {
-      this.$refs.sp.previousStep.()
+      this.$refs.sp.previousStep()
       // oppure: this.step = Math.max(this.step - 1, 0)
     },
     finish() {
